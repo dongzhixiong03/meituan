@@ -15,6 +15,7 @@
 		54C0F9631DBB6B8200F9A9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C0F9611DBB6B8200F9A9F6 /* LaunchScreen.storyboard */; };
 		54C0F96E1DBB6B8200F9A9F6 /* gitmeituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0F96D1DBB6B8200F9A9F6 /* gitmeituanTests.m */; };
 		54C0F9791DBB6B8200F9A9F6 /* gitmeituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0F9781DBB6B8200F9A9F6 /* gitmeituanUITests.m */; };
+		54C0F9881DBB6BD700F9A9F6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C0F9871DBB6BD700F9A9F6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		54C0F9741DBB6B8200F9A9F6 /* gitmeituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitmeituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C0F9781DBB6B8200F9A9F6 /* gitmeituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitmeituanUITests.m; sourceTree = "<group>"; };
 		54C0F97A1DBB6B8200F9A9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C0F9861DBB6BD700F9A9F6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		54C0F9871DBB6BD700F9A9F6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				54C0F9571DBB6B8200F9A9F6 /* AppDelegate.m */,
 				54C0F9591DBB6B8200F9A9F6 /* ViewController.h */,
 				54C0F95A1DBB6B8200F9A9F6 /* ViewController.m */,
+				54C0F9861DBB6BD700F9A9F6 /* Person.h */,
+				54C0F9871DBB6BD700F9A9F6 /* Person.m */,
 				54C0F95C1DBB6B8200F9A9F6 /* Main.storyboard */,
 				54C0F95F1DBB6B8200F9A9F6 /* Assets.xcassets */,
 				54C0F9611DBB6B8200F9A9F6 /* LaunchScreen.storyboard */,
@@ -207,8 +212,7 @@
 				TargetAttributes = {
 					54C0F94F1DBB6B8200F9A9F6 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4RN4F2XNY7;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					54C0F9681DBB6B8200F9A9F6 = {
 						CreatedOnToolsVersion = 8.0;
@@ -278,6 +282,7 @@
 			files = (
 				54C0F95B1DBB6B8200F9A9F6 /* ViewController.m in Sources */,
 				54C0F9581DBB6B8200F9A9F6 /* AppDelegate.m in Sources */,
+				54C0F9881DBB6BD700F9A9F6 /* Person.m in Sources */,
 				54C0F9551DBB6B8200F9A9F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4RN4F2XNY7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = gitmeituan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dzhx.gitmeituan;
@@ -439,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4RN4F2XNY7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = gitmeituan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dzhx.gitmeituan;
