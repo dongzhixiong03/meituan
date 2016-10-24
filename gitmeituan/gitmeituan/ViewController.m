@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"经理做了写改动");
+    
+    NSLog(@"张三加入了团队");
 }
 
 
